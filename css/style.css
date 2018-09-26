@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: 'HelveticaNeuebold';
+    src: url('fonts/HelveticaNeueBold.woff2') format('woff2'),
+        url('fonts/HelveticaNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeuelight';
+    src: url('fonts/HelveticaNeueLight.woff2') format('woff2'),
+        url('fonts/HelveticaNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src: url('fonts/HelveticaNeueMedium.woff2') format('woff2'),
+        url('fonts/HelveticaNeueMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('fonts/HelveticaNeue.eot');
+    src: url('fonts/HelveticaNeue.eot') format('embedded-opentype'),
+         url('fonts/HelveticaNeue.woff2') format('woff2'),
+         url('fonts/HelveticaNeue.woff') format('woff'),
+         url('fonts/HelveticaNeue.ttf') format('truetype'),
+         url('fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('fonts/MyriadProRegular.eot');
+    src: url('fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('fonts/MyriadProRegular.woff2') format('woff2'),
+         url('fonts/MyriadProRegular.woff') format('woff'),
+         url('fonts/MyriadProRegular.ttf') format('truetype'),
+         url('fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
+
+
+body{padding: 0px;margin: 0px;font-family: 'HelveticaNeuelight' !important;}
+*{box-sizing: border-box;outline: none;}
+.container{width: 940px;margin: 0 auto;max-width: 96%;}
+.logo{float: left;width: auto;margin: 5px 0 0;}
+header{width: 100%;float: left;background: #328fc2;}
+.header-content{width: 100%;float: left;}
+.menu-right{float: right;}
+.menu-right ul {margin: 0;padding: 0;list-style-type: none;position: relative;}
+.menu-right ul li {float: left;}
+.menu-right ul li a {color: #fff;font-size: 16px;float: left;padding:15px 20px;font-family: 'HelveticaNeuelight';letter-spacing: 0.8px;text-decoration: none;display: block;}
+ .menu-right ul li a:hover,.menu-right ul li a.act{background: #006899;font-weight: bold;text-decoration: none;}
+.menu-right ul ul {position: absolute;min-width: 200px;background: lightgrey;display: none;}
+.menu-right ul li i {color: #292929;float: right;padding-left: 20px;}
+ .menu-right nav .toggle-menu {background: lightgrey;color: #292929;font-size: 24px;padding: 0.6em;cursor: pointer; display: none;}
+
+.header-content .navbar.navbar-inverse {margin: 0;padding: 0;min-height: auto;background: transparent;border: none;}
+.header-content .navbar-brand{height: auto;padding: 0px;margin: 3px 0 5px 0px;}
+.navbar-inverse .navbar-nav > li > a{color: #fff;font-size: 16px;float: left;padding:12px 20px;font-family: 'HelveticaNeuelight';letter-spacing: 0.8px;}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a.act{background: #006899;font-weight: bold;}
+.section-bankever{width: 100%;float: left;padding:58px 0 0 0px;}
+.bankever-left{width:74.6%;float: left;}
+.bankever-content {width: 100%;float: left;}
+.bankever-content h3{font-size: 36px;color: #650360;float: left;width: 100%;padding: 0px;margin: 0 0 27px 0;}
+.bankever-content p{font-size: 14px;line-height: 18px;float: left;margin: 0px;padding: 0 52px 0 0px;color: #505050; font-family: 'MyriadProRegular';}
+.bankever-content p a{color: #328fc2;text-decoration: underline;}
+.bankever-content h4{color: #505050;font-size: 16px;font-weight: bold;margin: 19px 0 11px 0px;padding: 0;float: left;width: 100%;font-family: 'HelveticaNeuebold';}
+.bankever-content ul{float: left;width: 100%;padding: 0px;margin: 0px;}
+.bankever-content ul li{list-style: none;float: left;width: 100%;font-size: 14px;color: #505050;margin: 0 0 2px 0;}
+.bankever-content ul li span{font-size: 10px;margin: 0 5px 0 0px;}
+
+.amazingapp-content {float: left;width: 100%;background: #bbd8c4;padding:10px 0 16px 15px;margin: 35px 0 45px 0;position: relative;}
+.amazingapp-list{width: 77%;float: left;}
+.amazingapp-list h3{margin: 0px;padding: 0px;float: left;width: 100%;color: #650360;font-size: 16px;font-family: 'HelveticaNeuebold';}
+.amazingapp-list p{font-size: 14px;color: #505050;line-height: 21px; font-family: 'MyriadProRegular';}
+.amazingapp-img {float: left;margin: 0;width: auto;position: absolute;right: 30px;bottom: 13px;}
+
+.rates-conteent {width: 100%;float: left;}
+.rates-conteent h4{font-size: 28px;color: #505050;margin: 0 0 35px 0px;padding: 0px;width: 100%;float: left;}
+.rates-conteent h4 span{  font-family: 'MyriadProRegular';position: relative;margin: 0 0 0 28px;}
+.rates-conteent h4 span:before{position: absolute;left: -15px;width: 1px;height: 44px;background: #505050;content: "";top: -10px;}
+.rates-table{width: 100%;float: left;margin: 0 0 77px 0px;}
+.table-total h6{float: left;width: 100%;text-align: right;margin: 8px 0 0 0px;padding: 0px;color: #7c7c7c;}
+table {
+ font-family: 'HelveticaNeuelight';border-collapse: collapse;width: 100%;}
+tr{background-color: #ddebe1;}
+tr,th {border: none;text-align: left;font-weight: normal;font-size: 12px;color: #7c7c7c;line-height: 25px;}
+tr,td{padding:0 10px 0 10px;transition: all 0.5s;font-size: 16px;color:#505050; font-family: 'MyriadProRegular';line-height: 44px;}
+tr:nth-child(even) {background: #eef5f0;}
+.bankever-right {width:23.4%;float: right;}
+.bankever-right-content{width: 100%;float: left;}
+.login-btn{width: 100%;float: left;}
+.login-btn a{background: #650360;float: left;width: 100%;height: 35px;line-height: 35px;font-size: 18px;color: #ffffff;text-transform: capitalize;text-align: center;transition: all 0.5s;margin: 8px 0 0 0;font-family: 'HelveticaNeuebold';text-decoration: none;}
+.login-btn a:hover,.login-btn a:focus{background: #328fc2;transition: all 0.5s;text-decoration: none;}
+.tab-detail {width: 100%;float: left;}
+.tab-detail h3 {font-size: 16px;font-weight: bold;color: #328fc2;margin:21px 0 8px 0px;padding: 0;width: 100%;float: left;font-family: 'HelveticaNeuebold';color: #328fc2;}
+.tab-detail h3 a{transition: all 0.5s;color: #328fc2;text-decoration: none;}
+.tab-detail h3 a:hover{color: #650360;}
+.tab-detail h3 a:hover{text-decoration: none;color: #328fc2;}
+.tab-detail p{font-size: 14px;color: #505050;margin: 0px;padding: 0px;float: left;width: 100%;font-family: 'MyriadProRegular';}
+.tab-content{background: #f5f5f5;padding: 0 25px 31px 15px;width: 100%;float: left;}
+.tab button.active:nth-child(2){border-left: 1px solid #cccccc;}
+.tab button{background: #ddebe1;float: left;border-top: 1px solid #cccccc;border-right: 1px solid #cccccc;padding: 11px 15px 9px 15px;border-radius: 0px;margin: 5px 0 0 0px;font-family: 'MyriadProRegular';
+font-size: 18px;line-height: 24px;border: none;}
+.tab button.act{background: #f5f5f5;border-radius: 0px;padding:16px 19px 9px;color: #505050;border-top: 1px solid #cccccc;border-right: 1px solid #cccccc;margin: 0px;cursor: pointer;}
+.tab-bankever .nav-pills > li + li{margin: 0px;}
+.tab-bankever .nav-pills > li + li:nth-child(2) {border-left: 1px solid #ccc;margin: 0 0 0 -2px;}
+.tab-bankever {float: left;width: 100%;margin: 25px 0 0 0;}
+.bankever-link ul {float: left;width: 100%;padding: 0;}
+.bankever-link ul li{list-style: none;width: 100%;float: left;margin: 9px 0 0 0px;}
+.bankever-link ul  li a{font-size: 16px;color: #328fc2;font-weight: 700;transition: all 0.5s;font-family: 'HelveticaNeuebold';text-decoration: none;}
+.bankever-link ul  li a:hover,.tab-detail h3 a:hover{text-decoration: none;color: #650360;transition: all 0.5s;text-decoration: none;}
+.bankever-link {float: left;width: 100%;}
+.amazingapp-list p {float: left;width: 100%;margin:7px 0 0 0;}
+.login-popup-content{width: 100%;float: left;margin: 22px 0 0 0;}
+.login-popup-content h4{font-size: 28px;color: #505050;margin: 0px;padding: 0px;width: auto;float: left;font-weight: lighter;}
+.login-popup-content .modal-dialog{width: 448px;margin: 140px auto 0;max-width: 96%;}
+.login-popup-content .modal-content{border-radius: 0px;border: none;box-shadow: 0 15px 10px rgba(0,0,0,0.6);-webkit-box-shadow:  0 15px 10px rgba(0,0,0,0.6);padding: 0 30px 30px 30px;float: left;position: relative;
+width: 100%;box-sizing: border-box;background-color: #fff;}
+.login-popup-content .modal-header{margin:0px;padding:22px 0 40px;border: none;float: left;width: 100%;}
+.login-popup-content .modal-body{padding: 0px;}
+.login-popup-content  .form-control{width:300px;border-radius: 0;border: 1px solid #328fc2;padding: 0px 10px;max-width: 100%;height: 34px;font-size: 14px;color: #555;background-color: #fff;}
+.login-popup-content  .form-control:focus{border: 1px solid #328fc2;box-shadow: 0 0 0;}
+.login-popup-content  .form-group{float: left;width: 100%;}
+.login-popup-content .form-group label{width: 22%;float: left;font-size: 14px;color: #505050;line-height: 29px;margin-bottom: 5px;font-weight: 700;}
+.login-popup-content .close{opacity: 1;margin:-7px -16px 0 0;text-decoration: none;text-shadow: 0 1px 0 #fff;text-transform: none;border: none;float: right;background: transparent;cursor: pointer;}
+.login-popup-content .modal-body button{float: right;background: #650360;height: 35px;line-height: 35px;font-size: 18px;color: #ffffff;padding: 0 46px;border: none;border-radius: 0;}
+.login-popup-content .modal-body .form-group{margin: 0 0 20px 0px;}
+footer{width: 100%;float: left;background: #e7e8e9;padding: 20px 0 70px 0px;}
+
+.footer-content {float: left;width: 100%;}
+.footer-left {float: left;width: auto;}
+.footer-left a{font-size: 16px;color: #54a0c9;font-family: 'MyriadProRegular';text-decoration: none;}
+.footer-right {float: right;width: auto;}
+.footer-right ul {padding: 0;margin: 0;}
+.footer-right ul li{list-style: none;float: left;width: auto;margin: 0 40px 0 0px;}
+.footer-right ul li:last-child{margin: 0px;}
+.footer-right ul li a{color: #54a0c9;font-size: 16px;float: left;width: auto;font-family: 'MyriadProRegular';text-decoration: none;}
+.footer-left a:hover{text-decoration: none;color: #650360;}
+.footer-right ul li a:hover,.footer-right ul li a.act{font-weight: bold;text-decoration: none;}
+tr:nth-child(2) td{font-weight: bold;}
+
+ tr, td h6{  font-family: 'MyriadProRegular';}
+/* Style the tab */
+/* Create an active/current tablink class */
+.tab button.active {background: #f5f5f5;border-radius: 0px;padding: 16px 19px 8px;color: #505050;border-top: 1px solid #cccccc;border-right: 1px solid #cccccc;margin: 0px;}
+/* Style the tab content */
+.tabcontent {display: none;padding: 6px 12px;float: left;width: 100%;background: #f5f5f5;}
+#myModal{opacity: 1;background: rgba(0,0,0,0.4);position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 1050;display: none;overflow: hidden;-webkit-overflow-scrolling: touch;outline: 0;}
+
+
+
+
+@media screen and (max-width:939px){
+.amazingapp-img{position: relative;right: -10px;bottom: 0px;}
+.tab-detail h3{font-size: 14px;}
+.tab-detail p{font-size: 13px;}
+.bankever-link ul li a{font-size: 14px;}
+
+.tab-bankever .nav > li > a{padding: 11px 9px 9px 6px;}
+}
+
+@media screen and (max-width:767px){
+	.bankever-left{width: 100%;}
+	.bankever-right{width: 100%;margin: 0 0 20px 0;}
+	.section-bankever{padding: 35px 0 0 0px;}
+	
+	.login-btn a{padding: 0 40px;}
+	.header-content .navbar-collapse {position: absolute;top: 50px;background: #328fc2;width: 100%;border-top: none;border-top-color: currentcolor;box-shadow: 0 0 0;-webkit-box-shadow: 0 0 0;padding: 0;}
+	.navbar-inverse .navbar-nav > li{width: 100%;float: left;border-top: 1px solid rgba(255,255,255,0.2);}
+	header .container{max-width: 100%;}
+	.header-content .navbar-brand{margin:7px 0 5px 10px;}
+	.header-content .navbar-nav{margin: 0px;}
+	.navbar-inverse .navbar-nav > li > a{padding: 8px 20px;font-size: 15px;}
+	.navbar-inverse .navbar-nav > li > a:hover{color: #650360;background: transparent;transition: all 0.5s;}
+	.bankever-content h3{font-size: 30px;}
+	.tab-detail h3{margin: 21px 0 10px 0px;}
+	.footer-right ul li a{font-size: 15px;}
+	.footer-right ul li{margin: 0 27px 0 0px;}
+	footer{padding: 20px 0 40px 0px;}
+  .toggle-menu span {border-top: 2px solid #000;float: left;width: 100%;margin: 4px;}
+  .menu-right nav .toggle-menu {display: block;float: right;margin: -35px 0 0; padding: 0px 15px;width: 61px;background: transparent; }
+  .top-menu ul {display: none;position: absolute;z-index: 12;background: #328fc2;padding: 9px 0 0;float: left;width: 100%;left: 0;top: 40px;right: 0;}
+  header .container{ width: 100%;max-width: 100%; }
+  .menu-right ul li {display: block;width: 100%;float: left;border-top: 1px solid rgba(255,255,255,0.2);      }
+  .menu-right ul ul {position: static; background: #e3e3e3; }
+ .menu-right ul li a{padding: 7px 10px;color: #fff;}
+ .menu-right{width: 100%;}
+ .menu-right ul li a:hover, .menu-right ul li a.act{background: transparent;color: #650360;}
+ .logo{margin:  5px;}
+
+}
+@media screen and (max-width:600px){
+	.amazingapp-img img{max-width: 85px;}
+	
+	.amazingapp-list p{font-size: 13px;}
+	.bankever-content p{font-size: 13px;padding: 0px;}
+	.bankever-content h3{font-size: 26px;margin: 0 0 18px 0;}
+	.rates-conteent h4{font-size: 22px;}
+	.amazingapp-content{margin: 28px 0 28px 0;}
+	.footer-content{text-align: center;}
+	.footer-left{float: none;display: inline-block;}
+	footer{padding: 12px 0 12px 0px;}
+	.footer-right{width: 100%;border-top: 1px solid #ccc;padding: 12px 0 0 0;margin: 12px 0 0 0;}
+	.footer-right ul li{margin: 0 20px 0 0px;float: none;display: inline-block;}
+
+	.rates-table{overflow: scroll;margin: 0 0 20px 0px;}
+	tr, td{font-size: 12px;padding: 10px;line-height: 18px;}
+	tr:hover td{font-size: 12px;}
+	.table-total h6{padding: 0 0 20px 0;}
+	#rates-table table{width: 100%;}
+	.tab-bankever .nav > li > a{font-size: 14px;}
+	.amazingapp-img{right: 0px;}
+  tr, td h6 {
+
+    font-size: 14px;
+    padding: 0;
+    margin: 10px 0;
+    line-height: 18px;
+
+}
+
+}
+@media screen and (max-width:480px){
+	.login-btn a{font-size: 15px;}
+	.rates-conteent h4{font-size: 18px;}
+	.rates-conteent h4 span:before{left: -15px;top: -6px;height: 33px;}
+	.bankever-content h3{font-size: 24px;}
+	.amazingapp-list{width: 100%;}
+	.footer-right ul li{margin: 0 12px 0 0px;}
+	.rates-conteent h4 span{margin: 0 0 0 25px;}
+	.footer-right ul li a{font-size: 14px;}
+	.amazingapp-img{margin: 15px 0 0;text-align: center;width: 100%;}
+  .login-popup-content h4{font-size: 20px;}
+  .login-popup-content .modal-header{padding: 0 0 10px;}
+  .login-popup-content .close{margin: 6px -16px 0 0;}
+  .login-popup-content .modal-content{padding: 20px;}
+  .login-popup-content .modal-body .form-group{margin: 0px;}
+  .login-popup-content .modal-body button{margin: 20px 0 0 0;}
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+    <meta name="description" content="Ally bank code challenge for UX Developer role.  Challenge completed by Ami Bhimani.">
+    <meta name="author" content="Ami Bhimani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ally Bank Code Challenge</title>
+   
+    <!--style.css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
+   	<!--header section-->
+   	<header>
+   		<div class="container">
+   			<div class="row">
+   				<div class="header-content">
+   					
+        <div class="logo"><a href="#"><img src="images/logo.png" alt="URBank Logo" title="URBank Logo"></a></div>
+
+        <div class="menu-right"> 
+            <nav class="top-menu">
+            <div class="toggle-menu">
+             <!--Toggle bar with menu -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">employee</a></li>
+            <li><a href="#" class="act">company</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+        </div>
+   				</div>
+   			</div>
+   		</div>
+   	</header>
+   	<section class="section-bankever">
+   		<div class="container">
+   			<div class="row">
+   				<div class="bankever-left">
+   					<div class="bankever-content">
+   						<h3>Best Bank Ever!</h3>
+   						<p>Pellentesque habitant morbi tristique senectus et netus et <a href="#">malesuada</a> fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris <a href="#">placerat</a> eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
+   						<h4>Reasons We're Awesome:</h4>
+   						<ul>
+				            <li><span>•</span>  Lorem ipsum dolor sit amet.</li>
+				            <li><span>•</span>  Aliquam tincidunt mauris eu risus.</li>
+				            <li><span>•</span>  Lorem ipsum dolor sit amet.</li>
+				            <li><span>•</span>  Lorem ipsum dolor sit amet.</li>
+				            <li><span>•</span>  Vestibulum auctor dapibus neque.</li>
+				          </ul>
+   					</div>
+   					<div class="amazingapp-content">
+   						<div class="amazingapp-list">
+   							<h3>Amazing Mobile Info</h3>
+   						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+   						</div>
+   						<div class="amazingapp-img">
+   							<img src="images/phone.png" alt="Graphic image of mobile phone" title="Amazing Mobile Info">
+   						</div>
+   					</div>
+   					<div class="rates-conteent" >
+   						<h4>Rates <span>Check them out.</span></h4>
+   						<div class="rates-table" id="rates-table">
+   						</div>
+   					</div>
+   				</div>
+   				<div class="bankever-right">
+   					<div class="bankever-right-content">
+   						<div class="login-btn"><a href="#" data-toggle="modal" data-target="#myModal">login</a></div>
+              <!--login popup-->
+                <!-- Modal -->
+                <div class="login-popup-content">
+                   <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><img src="images/close-btn.png" alt="close popup" title="close popup"></button>
+                        <h4 class="modal-title">Sign In To Your Account</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                              <label for="Username">Username</label>
+                              <input type="text" id="Username" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                              <label for="Password">Password</label>
+                              <input type="password" id="Password" class="form-control"/>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                          </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              <!--login popup-->
+   						
+              <div class="tab">
+                <button class="tablinks active" onclick="articleTabs(event, 'News')">News</button>
+                <button class="tablinks" onclick="articleTabs(event, 'Archive')">Archive</button>
+               
+              </div>
+
+              <div id="News" class="tabcontent" style="display: block;">
+                <div class="tab-detail">
+                    <h3><a href="#">Lorem ipsum dolor</a></h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis </p>
+                  </div>
+
+                  <div class="tab-detail">
+                    <h3><a href="#">Lorem ipsum dolor</a></h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis</p>
+                  </div>
+
+                  <div class="tab-detail">
+                    <h3><a href="#">Lorem ipsum dolor</a></h3>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis </p>
+                  </div>
+              </div>
+
+              <div id="Archive" class="tabcontent">
+                <div class="bankever-link">
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                    </ul>
+                  </div>
+              </div>
+
+             
+
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</section>
+<footer>
+        <div class="container">
+          <div class="row">
+            	<div class="footer-content">
+            		<div class="footer-left">
+            			<a href="#">&copy;2014 URBank</a>
+            		</div>
+
+            		<div class="footer-right">
+            			<ul>
+			                <li><a href="#">home</a></li>
+			                <li><a href="#">employee</a></li>
+			                <li ><a href="#" class="act">company</a></li>
+			                <li><a href="#">services</a></li>
+			                <li><a href="#">contact</a></li>
+			              </ul>
+            		</div>
+            	</div>
+          </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/code-test.json"></script>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
+
